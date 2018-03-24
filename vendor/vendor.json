@@ -1,0 +1,103 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "CchFd+l3lwvFTuEs2E3cxsiR/N4=",
+			"path": "github.com/ebfe/scard",
+			"revision": "136eebbd7d749e6354ed1bb105b88f89c7d80b03",
+			"revisionTime": "2018-02-27T19:38:39Z"
+		},
+		{
+			"checksumSHA1": "DgGU2+x+U/lx1N5ZYucCxlTAKCc=",
+			"path": "github.com/getlantern/context",
+			"revision": "624d99b1798d7c5375ea1d3ca4c5b04d58f7c775",
+			"revisionTime": "2016-05-25T11:20:39Z"
+		},
+		{
+			"checksumSHA1": "CP/gU0f4DbhJOKOSfG94F7k19QA=",
+			"path": "github.com/getlantern/errors",
+			"revision": "e9c0296368b736086adb20832549567064224854",
+			"revisionTime": "2017-12-05T15:55:02Z"
+		},
+		{
+			"checksumSHA1": "GcRzFlNbRJFT4zS438wEd/c0aEo=",
+			"path": "github.com/getlantern/filepersist",
+			"revision": "c5f0cd24e7991579ba6f5f1bd20a1ad2c9f06cd4",
+			"revisionTime": "2016-03-17T15:43:40Z"
+		},
+		{
+			"checksumSHA1": "UWooHTyhSwKLRGYUs9DllB22t1I=",
+			"path": "github.com/getlantern/golog",
+			"revision": "cca714f7feb5df8e455f409b549d384441ac4578",
+			"revisionTime": "2017-05-08T21:41:12Z"
+		},
+		{
+			"checksumSHA1": "HDbmcUZB3sVapAII2L8YFJarbSA=",
+			"path": "github.com/getlantern/hex",
+			"revision": "083fba3033ad473db3dd31c9bb368473d37581a7",
+			"revisionTime": "2016-05-23T04:38:25Z"
+		},
+		{
+			"checksumSHA1": "h2eWjoqGMSNP1wymRJp3ND3kZrs=",
+			"path": "github.com/getlantern/hidden",
+			"revision": "d52a649ab33af200943bb599898dbdcfdbc94cb7",
+			"revisionTime": "2016-05-23T04:38:07Z"
+		},
+		{
+			"checksumSHA1": "pwKmzBSvQNadZIgKYksbAW3SmeU=",
+			"path": "github.com/getlantern/ops",
+			"revision": "37353306c90844c8e0591956f56611f46299d202",
+			"revisionTime": "2017-09-04T18:22:30Z"
+		},
+		{
+			"checksumSHA1": "qRZHzCHAkRJUGC0rjR1inF/x290=",
+			"path": "github.com/getlantern/stack",
+			"revision": "02f928aad224fbccd50d66edd776fc9d1e9f2f2b",
+			"revisionTime": "2016-05-16T00:17:42Z"
+		},
+		{
+			"checksumSHA1": "AGmFrzlVEy/1c54ogTpL/EYXLmg=",
+			"path": "github.com/getlantern/systray",
+			"revision": "fe4b1c6bb216a485a73414ce55047ec7ce3a9766",
+			"revisionTime": "2018-01-18T02:27:37Z"
+		},
+		{
+			"checksumSHA1": "TYrGVoBHMTlUR/AEw/p0elo+lQY=",
+			"path": "github.com/oxtoacart/bpool",
+			"revision": "4e1c5567d7c2dd59fa4c7c83d34c2f3528b025d6",
+			"revisionTime": "2015-07-12T13:31:11Z"
+		},
+		{
+			"checksumSHA1": "Mr4ur60bgQJnQFfJY0dGtwWwMPE=",
+			"path": "golang.org/x/text/encoding",
+			"revision": "ab48842968a66deafa354805a8b031924668e059",
+			"revisionTime": "2018-03-01T21:29:26Z"
+		},
+		{
+			"checksumSHA1": "DSdlK4MKI/a3U8Zaee2XKBe01Fo=",
+			"path": "golang.org/x/text/encoding/charmap",
+			"revision": "ab48842968a66deafa354805a8b031924668e059",
+			"revisionTime": "2018-03-01T21:29:26Z"
+		},
+		{
+			"checksumSHA1": "zeHyHebIZl1tGuwGllIhjfci+wI=",
+			"path": "golang.org/x/text/encoding/internal",
+			"revision": "ab48842968a66deafa354805a8b031924668e059",
+			"revisionTime": "2018-03-01T21:29:26Z"
+		},
+		{
+			"checksumSHA1": "7kYqxy64WhMjFIFZgN7tJ3lbKxM=",
+			"path": "golang.org/x/text/encoding/internal/identifier",
+			"revision": "ab48842968a66deafa354805a8b031924668e059",
+			"revisionTime": "2018-03-01T21:29:26Z"
+		},
+		{
+			"checksumSHA1": "ziMb9+ANGRJSSIuxYdRbA+cDRBQ=",
+			"path": "golang.org/x/text/transform",
+			"revision": "ab48842968a66deafa354805a8b031924668e059",
+			"revisionTime": "2018-03-01T21:29:26Z"
+		}
+	],
+	"rootPath": "mvneco.com/golksd"
+}
