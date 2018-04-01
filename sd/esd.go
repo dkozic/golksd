@@ -24,7 +24,7 @@ func ReadEsd(card *scard.Card) (EsdData, error) {
 	}
 
 	if err := selectApplication(card); err != nil {
-		return data, fmt.Errorf("error doing initCard() in ReadEsd(): %v", err)
+		return data, fmt.Errorf("error doing selectApplication() in ReadEsd(): %v", err)
 	}
 
 	fileA, err := readFile(card, EF_REGISTRATON_A)

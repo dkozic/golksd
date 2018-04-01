@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+	"log"
 	"os"
 
 	"github.com/getlantern/systray"
@@ -11,7 +11,7 @@ import (
 func onReady() {
 	trayIcon, err := Asset("data/vcard.ico")
 	if err != nil {
-		fmt.Println("vcard.ico not available. Using default one.")
+		log.Println("vcard.ico not available. Using default one.")
 		trayIcon = icon.Data
 	}
 
@@ -22,13 +22,13 @@ func onReady() {
 
 	go func() {
 		<-mQuitOrig.ClickedCh
-		fmt.Print("Requesting systray quit...")
+		log.Print("Requesting systray quit...")
 		systray.Quit()
-		fmt.Println("done!")
+		log.Println("done!")
 	}()
 }
 
 func onExit() {
-	fmt.Println("Exiting...")
+	log.Println("Exiting...")
 	os.Exit(0)
 }
